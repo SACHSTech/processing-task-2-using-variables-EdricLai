@@ -41,11 +41,11 @@ public class Sketch extends PApplet {
     float fltWindowYCoords = fltHeight / 1.20f;
     
     // draws moon
-    fill(200,200,200);
+    fill(200, 200, 200);
     ellipse(fltWidth / 5.00f, fltHeight / 2.50f, fltWidth / 5.00f, fltWidth / 5.00f);
 
     // draws hill
-    fill (20,120,20);
+    fill (20, 120, 20);
     ellipse(fltWidth / 2.00f, fltHeight / 0.75f, fltWidth, fltHeight);
 
     // draws wood
