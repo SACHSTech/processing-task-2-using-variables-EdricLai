@@ -12,7 +12,7 @@ public class Sketch extends PApplet {
    * inital settings
    */
   public void settings() {
-	  // screen size
+    // screen size
     size(700, 500);
   }
 
@@ -49,23 +49,23 @@ public class Sketch extends PApplet {
     ellipse(fltWidth / 2.00f, fltHeight / 0.75f, fltWidth, fltHeight);
 
     // draws wood
-    fill(110,60,60);
+    fill(110, 60, 60);
     rect(fltWidth / 3.00f, fltHeight / 1.50f, fltWidth / 3.00f, fltHeight / 3.00f);
     rect(fltWidth / 1.75f, fltHeight / 2.25f, fltWidth / 15.00f, fltHeight / 5.00f);
     triangle(fltWidth / 3.00f, fltHeight / 1.50f, fltWidth / 2.00f, fltHeight / 2.50f, fltWidth / 1.50f, fltHeight / 1.50f);
 
     // draws wood details
-    fill(180,110,80);
+    fill(180, 110, 80);
     rect(fltWidth / 3.00f, fltHeight / 1.05f, fltWidth / 3.00f, fltHeight / 21.00f);
     rect(fltWidth / 3.00f, fltHeight / 1.50f, fltWidth / 3.00f, fltHeight / 21.00f);
 
     // draws windows
-    fill(190,200,220);
+    fill(190, 200, 220);
     ellipse(fltWindow1XCoords, fltWindowYCoords, fltWindowDiameter, fltWindowDiameter);
     ellipse(fltWindow2XCoords, fltWindowYCoords, fltWindowDiameter, fltWindowDiameter);
 
     // draws door
-    fill(60,40,50);
+    fill(60, 40, 50);
     rect(fltDoorXCoords, fltDoorYCoords, fltDoorWidth, fltDoorHeight);
   }
 
